@@ -69,7 +69,9 @@ for (let i = 0; i < arrayNumeros.length; i++){
     }
     
     if (repetidor > repetidorMayor){
-        repetidorMayor = repetidor
-        document.querySelector('#comun').innerText = arrayNumeros[i];
+        repetidorMayor = arrayNumeros[i]
+        
     }
 }
+
+document.querySelector('#comun').innerText = repetidorMayor;
